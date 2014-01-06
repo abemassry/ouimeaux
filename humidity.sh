@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# set to run every 30 min via cron
+# uses pynest for current humidity
 cd /home/ubuntu/ouimeaux
 source humidity.conf
 PYNEST_COMMAND=$pynest_command
