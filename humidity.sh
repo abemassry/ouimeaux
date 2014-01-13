@@ -12,8 +12,8 @@ echo "The humidity is currently: $humidity"
 
 if [ "$humidity" -lt "$MIN_HUMIDITY" ]; then
   echo "Turning humidifier on"
-  /usr/local/bin/wemo switch "humidifier1" on
+  /usr/local/bin/wemo switch "humidifier" on
 else
   echo "Turning humidifier off"
-  /usr/local/bin/wemo switch "humidifier1" off
+  /usr/local/bin/wemo switch "humidifier" off
 fi
